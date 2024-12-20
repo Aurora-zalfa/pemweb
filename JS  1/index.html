@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javasricpt</title>
+</head>
+<body>
+    <script>
+        console.log("Aurora Zalfa Hartono");
+        document.write("Aurora Zalfa Hartono<br>");
+        let nama = "Aurora Zalfa Hartono";
+        document.write("Nama Saya", nama);
+    </script>
+
+    <hr>
+    <h3>
+        Menghitung luas dan lingkaran</h3>
+    <input type="number" id="jarijari" placeholder="masukkan jarijari">
+    <button onclick="hitungLingkaran()">Hitung</button>
+    <p>Luas Lingkaran : <span id="luas">0</span></p>
+    <p>Keliling Lingkaran : <span id="keliling">0</span></p>
+
+<script>
+    function hitungLingkaran() {
+       let jarijari = document.getElementById("jarijari").value;
+       console.log(jarijari);
+       const phi = 3.14;
+       let luas = phi * (jarijari * jarijari);
+       let keliling = 2 * phi * jarijari;
+       console.log(luas,keliling);
+
+       document.getElementById("luas").innerHTML = luas;
+       document.getElementById("keliling").innerHTML = keliling;
+    }
+</script>
+
+</body>
+</html>

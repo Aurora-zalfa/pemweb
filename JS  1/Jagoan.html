@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar js</title>.
+    <script>
+        let jagoan = {
+            nama : "Goku",
+            power : 10000,
+            makan : function(kalori){
+                this.power = this.power + kalori;
+            },
+            pukul : function(musuh,kekuatan){
+                musuh.power = musuh.power - kekuatan;
+                this.power = this.power - kekuatan;
+            }
+        };
+        let musuh = {
+            nama : "Alam",
+            power : 5000,
+        };
+    
+        function run(){
+            console.log("Power Jagoan dari " + jagoan.nama + " : " + jagoan.power);
+            console.log("Power Jagoan dari " + musuh.nama + " : " + musuh.power);
+            jagoan.makan(13000);
+            console.log("Setelah makan power dari " + jagoan.nama + " : " + jagoan.power);
+            jagoan.pukul(musuh,7000);
+            console.log("Setelah dipukul power dari " + jagoan.nama + " : " + jagoan.power);
+            console.log("Power Jagoan dari " + jagoan.nama + " : " + jagoan.power);
+            console.log("Power Jagoan dari " + musuh.nama + " : " + musuh.power);
+        }
+    
+        run(); // Panggil fungsi di sini
+    </script>
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

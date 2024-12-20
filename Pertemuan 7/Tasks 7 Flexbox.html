@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+       body {
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        list-style: none;
+    & a {
+        color: aliceblue;
+        font-weight: bold;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    }
+}
+.img img {
+    width: 200px; 
+}
+#banner {
+    height: 100vh;
+    width: 100%;
+    background: url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp) ;
+    display: flex;
+    align-items: center;
+    & .promosi {
+        width: 25%;
+        margin-left: 20px;
+        color: aliceblue;
+        & h2 {
+            background-color: rgb(73, 73, 215) ;
+            text-align: justify;
+            padding: 2px;
+            margin-bottom: -16px;
+        }
+        & p{
+            background-color: rgb(231, 117, 75);
+            text-align: justify;
+            padding: 2px;
+        }
+    }
+    
+}
+
+#prodi {
+    background-color: rgba(83, 83, 196, 0.788);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    & .card {
+        background-color: aliceblue;
+        width: 25%;
+        border-radius: 25px;
+        padding: 2px 20px 10px 20px;
+        margin: 5px;
+        
+    }
+    .btn-mobile {
+        border: 1 px solid rgb(255, 0, 0);
+        padding: 2px 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+.btn-mobile:hover {
+    background-color: blue;
+   
+}
+} 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src ="logo-sttnf-putih (1).png" alt="STT NF">
+        </div>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Program Studi</a></li>
+            <li><a href="#">Akademi</a></li>
+            <li><a href="#">Penelitian</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="promosi">
+                <h2>Pendaftaran Mahasiswa Baru 
+                    Adimisi STT NF Dibuka</h2>
+                <p class="Welcome">
+                    Selamat datang di kampus STT-NF. 
+                    Kami sangat senang dapat menawarkan dunia pengetahuan IT dan 
+                    bisnis yang sesuai dengan perkembangan zaman sekarang.
+                </p>
+            </div>
+        </section>
+        <section id="prodi">
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+            <div class="card">
+                <h4>
+                    Info Pendaftaran Mahasiswa Baru
+                </h4>
+                <p>
+                    Informasi Penerimaan Mahasiswa Baru STT Nurul Fikri mengenai persyaratan, alur pendaftaran, biaya, dll.
+                </p>
+                <a href="" class="btn-mobile">Admisi Pendaftaran</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
